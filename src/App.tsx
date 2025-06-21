@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Shop from './pages/Shop';
 import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
+import Checkout from './pages/CheckOut';
 import About from './pages/About';
 import './styles/globals.css';
 
@@ -22,6 +23,7 @@ function App() {
               <Route path="/shop" element={<Shop />} />
               <Route path="/product/:id" element={<ProductDetails />} />
               <Route path="/cart" element={<Cart />} />
+              <Route path="/checkout" element={<Checkout />} />
               <Route path="/about" element={<About />} />
             </Routes>
           </div>

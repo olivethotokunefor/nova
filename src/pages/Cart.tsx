@@ -161,14 +161,16 @@ export default function Cart() {
               </div>
             </div>
 
-            <motion.button
-              whileHover={{ scale: 1.02, boxShadow: "0 20px 40px rgba(168, 85, 247, 0.3)" }}
-              whileTap={{ scale: 0.98 }}
-              className="w-full flex items-center justify-center space-x-2 px-6 py-4 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-xl text-white font-semibold text-lg hover:shadow-2xl transition-all duration-300 mb-4"
-            >
-              <span>Proceed to Checkout</span>
-              <ArrowRight className="h-5 w-5" />
-            </motion.button>
+            <Link to="/checkout">
+              <motion.button
+                whileHover={{ scale: 1.02, boxShadow: "0 20px 40px rgba(168, 85, 247, 0.3)" }}
+                whileTap={{ scale: 0.98 }}
+                className="w-full flex items-center justify-center space-x-2 px-6 py-4 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-xl text-white font-semibold text-lg hover:shadow-2xl transition-all duration-300 mb-4"
+              >
+                <span>Proceed to Checkout</span>
+                <ArrowRight className="h-5 w-5" />
+              </motion.button>
+            </Link>
 
             <Link to="/shop">
               <motion.button
