@@ -45,7 +45,7 @@ interface FormErrors {
   [key: string]: string;
 }
 
-export default function CheckOut() {
+export default function Checkout() {
   const { items, total, clearCart } = useCart();
   const [currentStep, setCurrentStep] = useState(1);
   const [isProcessing, setIsProcessing] = useState(false);

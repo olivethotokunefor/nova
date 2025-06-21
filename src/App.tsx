@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import Shop from './pages/Shop';
 import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
-import Checkout from './pages/CheckOut';
+import Checkout from './pages/Checkout';
 import About from './pages/About';
 import './styles/globals.css';
 
